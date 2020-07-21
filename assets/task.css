@@ -1,0 +1,219 @@
+.top{
+        height: 180px;
+        background-color: #f6d55c;
+}
+
+.middle{
+        height: 306px;
+        background-color: #20639b;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+.mid_half{
+        height: 50%;
+        background-color: #ed553b;
+        
+}
+
+.img_box{
+        width: 50%;
+        height: 100%;
+        background-color: #ed553b;
+        position:relative; 
+        overflow:hidden; 
+        height:140px; 
+        width:140px;
+        float: left;
+        margin-right: 5px;
+        
+}
+
+.keys{
+        width: 100%;
+        height: 25%;
+        background-color: #ed553b;
+
+
+}
+.txt{
+        text-align: start;
+        width: 95%;
+        height: 75%;
+        background-color: #ed553b;
+
+}
+
+.profile{
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+        margin-top: auto;
+        font-size: 18px;
+
+}
+
+
+
+/* following classes provide responsive text and image */
+
+@media screen and (min-width: 601px) {
+  div.detail {
+    font-size: 18px;
+    color: #20639b;
+    width: 100%;
+    height: 25%;
+    margin: 2px;
+
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  div.detail {
+    font-size: 10px;
+    color: #20639b;
+    height: 25px;  
+    margin: 2px;
+
+
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+        div.links {
+          font-size: 18px;
+          margin-right: 50px;
+          color: #20639b;
+
+        }
+      }
+
+
+@media screen and (max-width: 780px) and (min-width: 600px)  {
+  div.links {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #20639b;
+  }
+}
+      
+
+@media screen and (max-width: 600px) {
+        div.links {
+          font-size: 11px;
+          margin-right: 10px;
+          color: #20639b;
+        }
+      }
+
+@media screen and (min-width: 1001px) {
+        p.summary {
+          font-size: 17px;
+          color: #20639b;
+          padding-top: 5px;
+          padding-left: 5px;
+        }
+      }
+      
+
+@media screen and (max-width: 1000px) and (min-width: 601px){
+        p.summary {
+          font-size: 12px;
+          color: #20639b;
+          padding-top: 5px;
+          padding-left: 5px;
+        }
+      }
+
+@media screen and (max-width: 600px) {
+  p.summary {
+    font-size:8px;
+    color: #20639b;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
+
+img{
+  object-fit: cover;
+  width:140px;
+  height:140px;
+}​
+
+
+@media screen and (max-width: 1000px) {
+  img {
+    object-fit: cover;
+        width:140px;
+        height:140px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    object-fit: cover;
+        width:100px;
+        height:100px;
+  }
+}
+
+
+
+/* Bootstrap classes redefined */
+
+.btn {
+        
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        margin-left: 5px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        font-size: 1rem;
+        line-height: 0.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+        color: #20639b;
+        background-color: #f6d55c;
+        border-color: #20639b;
+        height: 25px;
+      }
+
+.btn-primary:hover {
+        color: #ed553b;
+        background-color: #f6d55c;
+        border-color: #20639b;
+      }
+
+.btn-primary:focus, .btn-primary.focus {
+        color: #ed553b;
+        background-color: #f6d55c;
+        border-color: #20639b;
+        box-shadow: 0 0 0 0.2rem #20639b;
+      }
+      
+.btn-primary.disabled, .btn-primary:disabled {
+        color: #ed553b;
+        background-color: #f6d55c;
+        border-color:#20639b;
+      }
+      
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,.show > .btn-primary.dropdown-toggle {
+        color: #ed553b;
+        background-color: #f6d55c;
+        border-color: #f6d55c;
+      }
+
+      .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,.show > .btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem #20639b;
+      }

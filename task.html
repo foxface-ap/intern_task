@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/task.css">    
+</head>
+
+<body>
+  
+<div class="container">
+
+<!--------------------------- region above the middle part ----------------------------------->
+
+        <div class=" p-3 shadow-sm top">
+        </div>
+        
+<!-------------------------------------------end------------------------------------------->
+
+
+
+<!-------------------------------- middle part withh all the components --------------------------->
+
+        <div class=" middle  p-3 rounded shadow-sm ">
+            <div class="mid_half">
+                  <div class="img_box">
+                    <img src="assets/person.webp" alt="picture">
+                  </div>  
+                  <div class="profile" >
+                      <div class=" detail">Animesh</div>
+                      <div class=" detail">Udaipur,Rajasthan</div>
+                      <div class=" detail">4.5</div> 
+                      <div class="links" style="float: left;"><a href="#" style="color: #20639b;">50 Rewiews</a> </div>
+                      <div class="links" style="border-width: 2px;"><a href="#" style="color: #20639b;">See related question</a> </div>
+                  </div>
+              </div>
+            
+            <div class="mid_half">
+                    <div class="txt">
+                      <p class="summary">DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY DUMY </p>
+                    </div>
+                    
+                  <div class="keys">
+                          
+                    <button id="like" type="button" class="btn btn-primary">
+                      Like
+                    </button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="abc@gmail">
+                      Share
+                    </button>
+
+<!--------------------------------- modal to allow sharing of profile ----------------------------------->
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div  class="modal-dialog" role="document">
+                            <div style="background-color: #ed553b;" class="modal-content">
+                              <div class="modal-header">
+                                <h5 style="color: #20639b;"><b>Profile</b></h5>
+                              </div>
+                              <div class="modal-body">
+                                <form>
+
+                                  <div class="form-group">
+                                    <button type="button" class="btn btn-primary"  id="add">+Add Recipient</button>
+                                  </div>
+
+                                  <label style="color: #20639b;" for="recipient-name" class="col-form-label">Recipient:</label>
+                                  <input type="email" class="form-control" id="recipient-name" style="margin-bottom: 4px;" placeholder="Enter email address">
+
+   <!------------------------ blank div to add multiple recipients ----------------------------->
+
+                                  <div id="blank" class="form-group">
+                                    
+                                  </div>
+
+                                  <div class="form-group">
+                                    <button type="button" class="btn btn-primary"  id="remove">Remove All</button>
+                                  </div>
+                      
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" id="close">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" id="Confirm">Confirm</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+            </div>
+          </div>
+
+  <!------------------------------------------end------------------------------------->
+
+          
+  <!---------------------------------- region above the middle part --------------------------------->
+
+          <div class=" p-3 shadow-sm top">           
+          </div>
+
+  <!--------------------------------------------- end ------------------------------------------------>
+
+    </div>
+    <script type="text/javascript" src="assets/task.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.js"></script>
+</body>
+</html>
