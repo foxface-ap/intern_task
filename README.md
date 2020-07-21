@@ -4,6 +4,8 @@
 <br>
 Please ensure that you are connected to internet before running code.
 <br>
+  Open assets for css and js files.
+ <br>
 Some screenshots are also attached are also attached:
 <br></b>
 <b>Picture 1:</b>
